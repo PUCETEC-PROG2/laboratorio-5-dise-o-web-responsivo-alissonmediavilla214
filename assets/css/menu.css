@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    background-color: beige;
+}
+.navbar{
+    background-color: aquamarine;
+    box-shadow: 0 2px 6px 0 rgba(rgb(157, 216, 213));
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    max-width: 1200px;
+}
+.nav-container{
+    display: flex;
+
+}
+.nav-logo img{
+    width: 200px;
+    height: auto;
+}
+.nav menu{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.nav-link {
+    color:black;
+    text-decoration: none;
+    font-size: 14pt;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+.navv-link:hover{
+    background-color: rgb(183, 138, 224);
+    font-weight: bold;
+}
