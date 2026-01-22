@@ -5,13 +5,13 @@ body {
     color: black;
 }
 .navbar {
-    background-color: rgb(185, 110, 110);
+    background-color: rgb(221, 172, 172);
     box-shadow: 0 2px 6px 0 rgb(236, 177, 192,0.9);
     position: sticky;
     top: 0;
     z-index: 10000;
     max-width: 12000px;
-    color: rgb(248, 237, 237);
+    color: rgb(88, 78, 78);
 }
 
 .nav-container{
@@ -25,8 +25,8 @@ body {
 
 }
 .nav-logo img{
-    width: 900px;
-    height: 500px;
+    width: 200px;
+    height: auto;
 }
 .nav-menu{
     display: flex;
@@ -43,7 +43,7 @@ body {
     border-radius: 10px;
 }
 .nav-link:hover{
-    background-color: rgb(183, 138, 224);
+    background-color: rgb(217, 198, 235);
     font-weight: bold;
 }
 
