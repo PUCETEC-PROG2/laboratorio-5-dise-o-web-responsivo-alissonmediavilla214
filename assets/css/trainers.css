@@ -13,7 +13,11 @@
 }
 
 .trainer-card {
-    background: #ffffff;
+    background: linear-gradient(
+    180deg,
+  #ceced0 0%,
+  #3f7c88 100%
+);
     overflow: hidden;
     box-shadow: 0 15px 30px rgba(40, 152, 226, 0.63);
     transition: 0.3s;
@@ -38,7 +42,7 @@
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #bdbdc5;
+    border: 4px solid #ffffff;
     margin-bottom: 1rem;
 }
 
@@ -54,7 +58,7 @@
 .trainer-region,
 .trainer-badges {
     font-size: 0.9rem;
-    color: #9b9694;
+    color: #0c0a09;
 }
 
 .trainer-status {
@@ -62,16 +66,19 @@
     margin-top: 0.5rem;
     padding: 0.4rem 1rem;
     border-radius: 999px;
-    color: #ffffffbb;
+    color: #000000bb;
     font-size: 0.75rem;
     font-weight: bold;
 }
 
 
 
-.status-active { background: #6f118b; }
-.status-champion { background: #aca543; }
-.status-activelid { background: #0bcbec; }
+.status-active { background: linear-gradient(135deg, #e14d4d, #d78c8c); }
+.status-champion { background:linear-gradient(135deg, #aca531, #ffe881); }
+.status-activelid { background:linear-gradient(135deg, #0bcbec, #acc0c2); }
+.status-inv { background: linear-gradient(135deg, #5589c5, #808ba3); }
+.status-jef { background: linear-gradient(135deg, #ea894d, #a16e58); }
+.status-cri{ background:linear-gradient(135deg, #da5dd0, #d1a7c5); }
 
 @media screen and (max-width: 768px) {
     .trainer-card {
