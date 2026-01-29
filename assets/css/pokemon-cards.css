@@ -13,9 +13,9 @@
 }
 
 .pokemon-card {
-    background-color: beige;
+    background-color: rgba(201, 217, 222, 0.927);
     border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(219, 146, 146, 0.774);
+    box-shadow: 0 4px 8px rgba(204, 204, 204, 0.774);
     overflow: hidden;
     flex: calc(33.3333% - 32px);
     max-width: calc(33.3333% - 32px);
